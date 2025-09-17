@@ -4,7 +4,7 @@ const connectDB = async () => {
   try {
     // DB uri here
   } catch (err) {
-    console.log();
+    console.log(err);
   }
 };
 

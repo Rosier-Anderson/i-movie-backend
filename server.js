@@ -1,7 +1,7 @@
-const { config } = require("dotenv");
 const express = require("express");
 const app = express();
 const path = require("path");
+const erroHandler = require("./middleware/errorHandler");
 const PORT = process.env.PORT || 3500;
 require("dotenv").config();
 
@@ -20,6 +20,7 @@ app.all("/*splat", (req, res) => {
     res.type("text").send("404 Not Found");
   }
 });
+app.use(erroHandler());
 app.listen(PORT, (err) => {
   if (err) {
     console.log(err);
