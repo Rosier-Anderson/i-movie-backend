@@ -20,7 +20,7 @@ app.all("/*splat", (req, res) => {
     res.type("text").send("404 Not Found");
   }
 });
-app.use(erroHandler());
+app.use(erroHandler);
 app.listen(PORT, (err) => {
   if (err) {
     console.log(err);
