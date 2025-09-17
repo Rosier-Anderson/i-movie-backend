@@ -2,7 +2,7 @@ const fs = require("fs");
 const fsPromises = require("fs").promises;
 const path = require("path");
 const { format } = require("date-fns");
-const { v4: uuidv4 } = require("uuid");
+const { uuidv4 } = require("uuidv4");
 
 const logEvents = async (message, fileName) => {
   const logsDir = path.join(__dirname, "..", "logs");

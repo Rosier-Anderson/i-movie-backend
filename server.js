@@ -13,7 +13,7 @@ app.use(require("./routes/root"));
 app.all("/*splat", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {
-    res.sendFile(path.join(__dirname, "views", "404.html"));
+    res.sendFile(path.joi(__dirname, "views", "404.html"));
   } else if (req.accepts("json")) {
     res.json({ error: "404 Not Found" });
   } else {
