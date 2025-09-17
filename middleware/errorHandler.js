@@ -1,5 +1,8 @@
-const erroHandler = (error, req, res, next) => {
-  console.log(error);
+const { logEvents } = require("./logEvents");
+
+const errorHandler = (error, req, res, next) => {
+  logEvents();
+  res.status(500).send(error.message);
 };
 
-module.exports = erroHandler;
+module.exports = errorHandler;
