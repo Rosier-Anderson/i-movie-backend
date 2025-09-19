@@ -2,9 +2,11 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const erroHandler = require("./middleware/errorHandler");
+const { default: mongoose } = require("mongoose");
+const connectDB = require("./configs/conncetDB");
 const PORT = process.env.PORT || 3500;
 require("dotenv").config();
-
+connectDB();
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -21,9 +23,13 @@ app.all("/*splat", (req, res) => {
   }
 });
 app.use(erroHandler);
-app.listen(PORT, (err) => {
-  if (err) {
-    console.log(err);
-  }
-  console.log(`Server is running on port ${PORT}`);
+
+mongoose.connection.once("open", () => {
+  console.log("MongoDB connected successfully!");
+  app.listen(PORT, (err) => {
+    if (err) {
+      console.log(err);
+    }
+    console.log(`Server is running on port ${PORT}`);
+  });
 });
