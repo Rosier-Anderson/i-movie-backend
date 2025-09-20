@@ -5,16 +5,16 @@ const erroHandler = require("./middleware/errorHandler");
 const { default: mongoose } = require("mongoose");
 const connectDB = require("./configs/conncetDB");
 const PORT = process.env.PORT || 3500;
-require("dotenv").config();
+require("dotenv").config(); // .env's
 connectDB(); // connect to database
-//
+// middlewares dependencies
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-//
+// routes 
 app.use(require("./routes/root"));
 app.use("/register", require("./routes/register"));
-// error 404's
+// catch-all route for handling 404 errors
 app.all("/*splat", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {
