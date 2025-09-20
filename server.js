@@ -6,12 +6,15 @@ const { default: mongoose } = require("mongoose");
 const connectDB = require("./configs/conncetDB");
 const PORT = process.env.PORT || 3500;
 require("dotenv").config();
-connectDB();
+connectDB(); // connect to database
+//
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+//
 app.use(require("./routes/root"));
-
+app.use("/register", require("./routes/register"));
+// error 404's
 app.all("/*splat", (req, res) => {
   res.status(404);
   if (req.accepts("html")) {

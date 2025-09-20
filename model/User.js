@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Schema = mongoose;
+const Schema = mongoose.Schema;
 const UserSchema = new Schema({
   usename: {
     type: String,
@@ -17,7 +17,7 @@ const UserSchema = new Schema({
     Editor: Number,
     Admin: Number,
   },
-  refreshToken: String,
+  // refreshToken: String,
 });
 
 module.exports = mongoose.model("User", UserSchema);
