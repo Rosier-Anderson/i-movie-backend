@@ -25,7 +25,6 @@ app.all("/*splat", (req, res) => {
 app.use(erroHandler);
 
 mongoose.connection.once("open", () => {
-  console.log("MongoDB connected successfully!");
   app.listen(PORT, (err) => {
     if (err) {
       console.log(err);
