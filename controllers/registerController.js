@@ -8,8 +8,8 @@ const handleNewUser = async (req, res) => {
     if (!user || !pwd)
       return res
         .status(400)
-        .json({ msg: "Username and password are required." });
-    const duplicate = UserModel.findOne({ username: user });
+        .jon({ msg: "Username and password are required." });
+    const duplicate = await UserModel.findOne({ username: user }).exec();
     if (duplicate)
       return res.status(409).json({ msg: `Username ${user} already exits.` });
     const hashPWD = await bcrypt.hash(pwd, 10);
@@ -19,8 +19,9 @@ const handleNewUser = async (req, res) => {
     });
     res.status(201).json({ success: "New user created" });
   } catch (err) {
+    console.log(err);
     errorHandler(err);
-    res.status(500).json({ msg: err.mesage });
+    // res.status(500).json({ msg: err.mesage });
   }
 };
 

@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
+const cookieParser = require("cookie-parser");
 const erroHandler = require("./middleware/errorHandler");
 const { default: mongoose } = require("mongoose");
 const connectDB = require("./configs/conncetDB");
@@ -11,9 +12,11 @@ connectDB(); // connect to database
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
 // routes
 app.use(require("./routes/root"));
 app.use("/register", require("./routes/register"));
+app.use("/login", require("./routes/auth"));
 // catch-all route for handling 404 errors
 app.all("/*splat", (req, res) => {
   res.status(404);
