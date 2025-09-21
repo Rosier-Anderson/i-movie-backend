@@ -11,7 +11,7 @@ connectDB(); // connect to database
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-// routes 
+// routes
 app.use(require("./routes/root"));
 app.use("/register", require("./routes/register"));
 // catch-all route for handling 404 errors

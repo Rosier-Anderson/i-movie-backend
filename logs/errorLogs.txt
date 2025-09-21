@@ -2,3 +2,27 @@
 
 2025-09-19	03:31:34	cec3149f-09f8-4187-820c-db1d8c22adf3	TypeError: path.joi is not a function
 
+2025-09-21	04:06:47	4f513e2a-9c4b-46a2-b1fc-da00ac9557c7	TypeError: Cannot read properties of undefined (reading 'sendStatus')
+
+2025-09-21	04:20:58	3d65aa69-7c16-427d-bded-cfd99ffdcd90	TypeError: Cannot read properties of undefined (reading 'sendStatus')
+
+2025-09-21	04:26:06	ab0fc2ea-1c26-40dd-b063-fce3709680df	SyntaxError: Expected property name or '}' in JSON at position 1
+
+2025-09-21	04:27:54	78c8a985-921c-40e5-a4e7-3d3332bf2522	ReferenceError: bcrypt is not defined
+
+2025-09-21	04:27:54	b8a61391-6055-485e-bf4b-0087b7fa5044	TypeError: Cannot read properties of undefined (reading 'status')
+
+2025-09-21	04:29:17	868f2ef8-4781-4f17-a0a6-a48308d09124	ReferenceError: bcrypt is not defined
+
+2025-09-21	04:29:17	4a6b5c8e-99e6-4b58-91ad-a6e549dc0683	TypeError: Cannot read properties of undefined (reading 'status')
+
+2025-09-21	04:29:25	d8511ee8-96ed-4800-a0c7-12753e70f028	ReferenceError: bcrypt is not defined
+
+2025-09-21	04:29:25	69c45e6e-f641-4e44-acca-5221951729d6	TypeError: Cannot read properties of undefined (reading 'status')
+
+2025-09-21	04:30:15	9f8a2942-4db4-4495-92c6-ce8ea61bf553	ReferenceError: bcrypt is not defined
+
+2025-09-21	04:31:50	f9f9611f-5a77-46d0-b520-921361ed6532	ReferenceError: bcrypt is not defined
+
+2025-09-21	04:31:50	e5a4e74e-c6b2-4ddf-b6a2-466567f5b490	TypeError: Cannot read properties of undefined (reading 'status')
+
