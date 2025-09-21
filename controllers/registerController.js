@@ -8,7 +8,7 @@ const handleNewUser = async (req, res) => {
     if (!user || !pwd)
       return res
         .status(400)
-        .jon({ msg: "Username and password are required." });
+        .json({ Error: "Username and password are required." });
     const duplicate = await UserModel.findOne({ username: user }).exec();
     if (duplicate)
       return res.status(409).json({ msg: `Username ${user} already exits.` });
