@@ -1,10 +1,29 @@
-const errorHandler = require("../middleware/errorHandler");
 const UserModel = require("../model/User");
 const bcrypt = require("bcrypt");
-
-const handleNewUser = async (req, res) => {
-  const { user, pwd } = req.body;
+const validator = require("validator");
+const handleNewUser = async (req, res, next) => {
+  let { user, pwd } = req.body;
   try {
+    // Sanitize username: remove unwanted spaces and characters
+    user = validator.trim(user);
+    user = validator.escape(user);
+
+    // Validate password strength
+    // At least 8 chars, one lowercase, one uppercase, one number, one special char
+    if (
+      !validator.isStrongPassword(pwd, {
+        minLength: 8,
+        minLowercase: 1,
+        minUppercase: 1,
+        minNumbers: 1,
+        minSymbols: 1,
+      })
+    ) {
+      return res.status(400).json({
+        msg: "Password must be at least 8 characters long and include uppercase, lowercase, number, and special character.",
+      });
+    }
+
     if (!user || !pwd)
       return res
         .status(400)
@@ -20,8 +39,7 @@ const handleNewUser = async (req, res) => {
     res.status(201).json({ success: "New user created" });
   } catch (err) {
     console.log(err);
-    errorHandler(err);
-    // res.status(500).json({ msg: err.mesage });
+    next(err);
   }
 };
 

@@ -1,14 +1,16 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-
 const UserModel = require("../model/User");
-const errorHandler = require("../middleware/errorHandler");
 const ROLES_LIST = require("../configs/role_list");
-
-const handleLogin = async (req, res) => {
-  const { user, pwd } = req.body;
+const validator = require("validator");
+const handleLogin = async (req, res, next) => {
+  let { user, pwd } = req.body;
 
   try {
+    // Sanitize username: remove unwanted spaces and characters
+    user = validator.trim(user);
+    user = validator.escape(user);
+
     if (!user || !pwd)
       return res
         .status(400)
@@ -43,16 +45,18 @@ const handleLogin = async (req, res) => {
       process.env.ACCESS_TOKEN_SECRET,
       { expiresIn: "30s" }
     );
+    foundUser.refreshToken = refreshToken;
+    await foundUser.save();
     res.cookie("jwt", refreshToken, {
       httpOnly: true,
+      sameSite: "None",
       secure: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
-    res.status(201).json({ accessToken: accessToken });
+    res.status(200).json({ accessToken });
   } catch (err) {
     console.log(err);
-    errorHandler(err);
-    // res.status(500).json({ msg: err.mesage });
+    next(err);
   }
 };
 

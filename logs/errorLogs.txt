@@ -1,5 +1,2 @@
 
-2025-09-21	08:58:05	1706ad11-3a85-473c-9b3d-b2733ce075cc	TypeError: res.status(...).jon is not a function
-
-2025-09-21	08:58:05	d1ec5c7f-1d10-4b2e-9bc6-7c08aa66b266	TypeError: Cannot read properties of undefined (reading 'status')
 

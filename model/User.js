@@ -9,6 +9,7 @@ const UserSchema = new Schema({
     type: String,
     required: true,
   },
+
   roles: {
     User: {
       type: Number,
@@ -17,7 +18,7 @@ const UserSchema = new Schema({
     Editor: Number,
     Admin: Number,
   },
-  // refreshToken: String,
+  refreshToken: String,
 });
 
 module.exports = mongoose.model("User", UserSchema);

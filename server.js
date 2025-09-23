@@ -17,6 +17,7 @@ app.use(cookieParser());
 app.use(require("./routes/root"));
 app.use("/register", require("./routes/register"));
 app.use("/login", require("./routes/auth"));
+app.use("/refresh", require("./routes/refreshUserToken"));
 // catch-all route for handling 404 errors
 app.all("/*splat", (req, res) => {
   res.status(404);
