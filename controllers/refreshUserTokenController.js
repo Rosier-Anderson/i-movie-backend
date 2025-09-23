@@ -2,16 +2,19 @@ const UserModel = require("../model/User");
 const jwt = require("jsonwebtoken");
 
 const handlerefreshUserToken = async (req, res, next) => {
+  const token = req.cookies;
+console.log(token?.jwt)
   try {
-    const token = req.cookies;
-    if (!token?.jwt) return res.status(401).json({ token });
+    if (!token?.jwt) return res.sendStatus(401);
 
     const refreshToken = token.jwt;
+
     const foundUser = await UserModel.findOne({ refreshToken });
     if (!foundUser) return res.sendStatus(403);
+  
     jwt.verify(
       refreshToken,
-      process.env.REFRESHTOKEN_TOKEN_SECRET,
+      process.env.REFRESH_TOKEN_SECRET,
       (error, decoded) => {
         if (error || foundUser.username !== decoded.UserInfo.username)
           return res.sendStatus(403);
@@ -21,7 +24,7 @@ const handlerefreshUserToken = async (req, res, next) => {
         const accessToken = jwt.sign(
           {
             UserInfo: {
-              username: user,
+              username: decoded.UserInfo.username,
               roles: roles,
             },
           },
@@ -32,7 +35,7 @@ const handlerefreshUserToken = async (req, res, next) => {
       }
     );
   } catch (err) {
-    netx(err);
+    next(err);
   }
 };
 

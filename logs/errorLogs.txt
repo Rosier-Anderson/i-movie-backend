@@ -1,2 +1,3 @@
 
+2025-09-23	08:00:31	eaa258d8-0d80-4e7d-853e-a6ee7f8b37f0	TypeError: Cannot read properties of undefined (reading 'authorization')
 

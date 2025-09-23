@@ -5,6 +5,7 @@ const cookieParser = require("cookie-parser");
 const erroHandler = require("./middleware/errorHandler");
 const { default: mongoose } = require("mongoose");
 const connectDB = require("./configs/conncetDB");
+const { verifyJWT } = require("./middleware/verifyJWT");
 const PORT = process.env.PORT || 3500;
 require("dotenv").config(); // .env's
 connectDB(); // connect to database
@@ -16,7 +17,8 @@ app.use(cookieParser());
 // routes
 app.use(require("./routes/root"));
 app.use("/register", require("./routes/register"));
-app.use("/login", require("./routes/auth"));
+app.use("/auth", require("./routes/auth"));
+app.use(verifyJWT)
 app.use("/refresh", require("./routes/refreshUserToken"));
 // catch-all route for handling 404 errors
 app.all("/*splat", (req, res) => {

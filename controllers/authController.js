@@ -14,7 +14,7 @@ const handleLogin = async (req, res, next) => {
     if (!user || !pwd)
       return res
         .status(400)
-        .json({ Erorr: `Username and password are required.` });
+        .json({ error: `Username and password are required.` });
     const foundUser = await UserModel.findOne({ username: user }).exec();
     if (!foundUser)
       return res.status(401).json({ msg: `User ${user} not found.` });
@@ -50,7 +50,7 @@ const handleLogin = async (req, res, next) => {
     res.cookie("jwt", refreshToken, {
       httpOnly: true,
       sameSite: "None",
-      secure: true,
+     
       maxAge: 24 * 60 * 60 * 1000,
     });
     res.status(200).json({ accessToken });
