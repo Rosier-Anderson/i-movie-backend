@@ -43,14 +43,14 @@ const handleLogin = async (req, res, next) => {
         },
       },
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: "30s" }
+      { expiresIn: "40s" }
     );
     foundUser.refreshToken = refreshToken;
     await foundUser.save();
     res.cookie("jwt", refreshToken, {
       httpOnly: true,
-      secure: true,
-      sameSite: "None",
+      // secure: true,
+      // sameSite: "None",
       maxAge: 24 * 60 * 60 * 1000,
     });
     res.status(200).json({ accessToken });
