@@ -5,7 +5,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const erroHandler = require("./middleware/errorHandler");
 const { default: mongoose } = require("mongoose");
-const connectDB = require("./configs/conncetDB");
+const connectDB = require("./db/conncetDB");
 const { verifyJWT } = require("./middleware/verifyJWT");
 const corsOptions = require("./configs/corsOptions");
 const PORT = process.env.PORT || 3500;
@@ -24,6 +24,7 @@ app.use("/register", require("./routes/register"));
 app.use("/auth", require("./routes/auth"));
 app.use(verifyJWT);
 app.use("/refresh", require("./routes/refreshUserToken"));
+app.use("/logout", require("./routes/logout"));
 // catch-all route for handling 404 errors
 app.all("/*splat", (req, res) => {
   res.status(404);
