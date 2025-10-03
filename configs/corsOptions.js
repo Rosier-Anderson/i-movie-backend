@@ -2,7 +2,11 @@ const express = require("express");
 
 const app = express();
 
-const whitelist = ["https://56t6mg-3000.csb.app", "https://vercel.com"];
+const whitelist = [
+  "https://56t6mg-3000.csb.app",
+  "https://vercel.com",
+  undefined,
+];
 const corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
