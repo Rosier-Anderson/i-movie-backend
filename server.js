@@ -12,6 +12,7 @@ const PORT = process.env.PORT || 3500;
 require("dotenv").config(); // .env's
 connectDB(); // connect to database
 app.use(cors(corsOptions));
+
 // middlewares dependencies
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
