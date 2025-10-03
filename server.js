@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const cookieParser = require("cookie-parser");
+const cors = require("cors");
 const erroHandler = require("./middleware/errorHandler");
 const { default: mongoose } = require("mongoose");
 const connectDB = require("./configs/conncetDB");
@@ -10,7 +11,7 @@ const corsOptions = require("./configs/corsOptions");
 const PORT = process.env.PORT || 3500;
 require("dotenv").config(); // .env's
 connectDB(); // connect to database
-app.use(corsOptions());
+app.use(cors(corsOptions));
 // middlewares dependencies
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.json());
