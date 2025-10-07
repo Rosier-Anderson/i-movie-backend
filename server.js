@@ -14,7 +14,7 @@ const corsOptions = require("./configs/corsOptions");
 const PORT = process.env.PORT || 3500;
 connectDB(); // connect to database
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 // middlewares dependencies
 app.use(express.static(path.join(__dirname, "public")));
