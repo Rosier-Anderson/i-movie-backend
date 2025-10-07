@@ -1,16 +1,19 @@
+require("dotenv").config(); // .env's
+
 const express = require("express");
 const app = express();
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const mongoose = require("mongoose");
+
 const erroHandler = require("./middleware/errorHandler.middleware");
 const connectDB = require("./db/conncectDB");
 const { verifyJWT } = require("./middleware/verifyJWT.middleware");
 const corsOptions = require("./configs/corsOptions");
 const PORT = process.env.PORT || 3500;
-require("dotenv").config(); // .env's
 connectDB(); // connect to database
+
 app.use(cors(corsOptions));
 
 // middlewares dependencies
