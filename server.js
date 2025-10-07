@@ -3,10 +3,10 @@ const app = express();
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
-const erroHandler = require("./middleware/errorHandler");
+const erroHandler = require("./middleware/errorHandler.middleware");
 const { default: mongoose } = require("mongoose");
 const connectDB = require("./db/conncetDB");
-const { verifyJWT } = require("./middleware/verifyJWT");
+const { verifyJWT } = require("./middleware/verifyJWT.middleware");
 const corsOptions = require("./configs/corsOptions");
 const PORT = process.env.PORT || 3500;
 require("dotenv").config(); // .env's

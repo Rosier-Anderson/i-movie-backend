@@ -9,3 +9,57 @@
 
 2025-09-27	03:19:56	22a62087-012b-4bb4-8ad4-5a23c30388af	TypeError: Cannot read properties of undefined (reading 'jwt')
 
+2025-10-07	09:48:02	ff32a9b9-0165-4be8-a7b2-81d9efc91fb0	Error: Not allowed by CORS
+
+2025-10-07	09:48:04	a4fd8a36-aef4-4e48-ba70-7fbdb511a8f3	Error: Not allowed by CORS
+
+2025-10-07	09:48:05	c247f949-d039-4483-b317-e2acbadccd7b	Error: Not allowed by CORS
+
+2025-10-07	09:48:27	2804a48a-5f1d-437f-91e0-620f04809f78	Error: Not allowed by CORS
+
+2025-10-07	09:48:28	d4ab582d-5aa2-46c0-8121-4e9ed0c662c0	Error: Not allowed by CORS
+
+2025-10-07	09:48:29	428ee994-7d8c-421f-8c66-fcf92d6e63ee	Error: Not allowed by CORS
+
+2025-10-07	09:49:41	c962b0ba-b5d4-474c-a847-a62058306957	Error: Not allowed by CORS
+
+2025-10-07	09:49:42	fe3eced3-cdbc-495c-bf12-c5f436dd8e55	Error: Not allowed by CORS
+
+2025-10-07	09:49:43	b9362779-e279-4f24-95a6-0f2ad6503441	Error: Not allowed by CORS
+
+2025-10-07	09:49:46	6d0830ac-0e00-47f1-a17a-731e54dbb8da	Error: Not allowed by CORS
+
+2025-10-07	10:00:49	4a86f65d-0a33-4fcd-9f0b-9046b7a72ee2	Error: Not allowed by CORS
+
+2025-10-07	10:13:04	62831d86-3791-48f2-b5eb-246a8c118d00	Error: Not allowed by CORS
+
+2025-10-07	10:13:05	dcf875a5-5ddb-450b-b327-7f1b452a5fc1	Error: Not allowed by CORS
+
+2025-10-07	10:13:06	366d629f-4b10-4c76-8f17-e87012462fed	Error: Not allowed by CORS
+
+2025-10-07	10:13:06	3e24a013-8909-49ca-bb6b-bba26589daf7	Error: Not allowed by CORS
+
+2025-10-07	10:13:06	5937283c-c5fc-4760-80aa-8d8dedefe558	Error: Not allowed by CORS
+
+2025-10-07	10:13:06	4fea9155-b1aa-4bf8-9375-e94d3e63f31b	Error: Not allowed by CORS
+
+2025-10-07	10:13:07	0291f614-1250-4b30-be39-e5049fc1fbef	Error: Not allowed by CORS
+
+2025-10-07	10:13:08	ead79b2b-f198-4fc3-b384-1e065320317f	Error: Not allowed by CORS
+
+2025-10-07	10:13:08	f8697e7e-7f6a-466d-99cf-740b32e07043	Error: Not allowed by CORS
+
+2025-10-07	10:13:09	781a56fb-6bc4-49b3-b0f4-fec856ee827b	Error: Not allowed by CORS
+
+2025-10-07	10:20:33	3c635de5-2b63-480d-aa9c-b6944ceadf39	Error: Cannot set headers after they are sent to the client
+
+2025-10-07	10:20:34	80492314-c03a-4c74-baac-1eaa284aae48	Error: Cannot set headers after they are sent to the client
+
+2025-10-07	10:21:02	a6d6dcac-5fc8-47c2-8480-aca8141297f8	Error: Cannot set headers after they are sent to the client
+
+2025-10-07	10:21:03	ef9d8a77-f5dd-46e0-bf4a-b376ee332cf7	Error: Cannot set headers after they are sent to the client
+
+2025-10-07	10:25:11	4a96f1bf-0294-4f18-8cd6-1b7403af5a4e	TypeError: Expected a string but received a undefined
+
+2025-10-07	10:25:12	f6035cbf-c64d-4b6c-8879-7e6c43d9487b	TypeError: Expected a string but received a undefined
+

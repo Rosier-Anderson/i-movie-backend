@@ -1,9 +1,12 @@
 const UserModel = require("../model/User");
 const bcrypt = require("bcrypt");
 const validator = require("validator");
+const { logger } = require("../middleware/logEvents");
 const handleNewUser = async (req, res, next) => {
   let { user, pwd } = req.body;
+
   try {
+      
     // Sanitize username: remove unwanted spaces and characters
     user = validator.trim(user);
     user = validator.escape(user);
@@ -38,6 +41,7 @@ const handleNewUser = async (req, res, next) => {
     });
     res.status(201).json({ success: "New user created" });
   } catch (err) {
+    logger(req, res, next)
     console.log(err);
     next(err);
   }
