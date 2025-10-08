@@ -1,193 +1,113 @@
 
-2025-09-23	08:00:31	eaa258d8-0d80-4e7d-853e-a6ee7f8b37f0	TypeError: Cannot read properties of undefined (reading 'authorization')
+2025-10-08	04:58:31	76ea50bd-05d4-4f23-ba89-07dad4bafcaf	Error: Not allowed by CORS
 
-2025-09-27	03:19:32	25e2fb69-7f7b-44b2-8c04-9f1994c688d8	TypeError: Cannot read properties of undefined (reading 'jwt')
+2025-10-08	04:58:33	62cd82f5-bc34-404a-81ca-83fcf10f6921	Error: Not allowed by CORS
 
-2025-09-27	03:19:33	f43deab4-a0a6-44af-a82d-7fffa63c3deb	TypeError: Cannot read properties of undefined (reading 'jwt')
+2025-10-08	04:59:01	9bd7da70-154a-4c20-9ecd-dfcf532b2490	Error: Not allowed by CORS
 
-2025-09-27	03:19:35	0b3da11f-38e5-488a-a1f8-1a56e0efa5e5	TypeError: Cannot read properties of undefined (reading 'jwt')
+2025-10-08	04:59:01	a99bec9a-fba5-450a-a91e-b11fbab9c19f	Error: Not allowed by CORS
 
-2025-09-27	03:19:56	22a62087-012b-4bb4-8ad4-5a23c30388af	TypeError: Cannot read properties of undefined (reading 'jwt')
+2025-10-08	04:59:02	b30c8586-de62-49b9-9e75-78096ac70c23	Error: Not allowed by CORS
 
-2025-10-07	09:48:02	ff32a9b9-0165-4be8-a7b2-81d9efc91fb0	Error: Not allowed by CORS
+2025-10-08	04:59:02	5f040559-5e0c-4854-ac1e-c7c944dc2458	Error: Not allowed by CORS
 
-2025-10-07	09:48:04	a4fd8a36-aef4-4e48-ba70-7fbdb511a8f3	Error: Not allowed by CORS
+2025-10-08	04:59:02	fdee7d7f-1067-43ad-9ad4-244af44ce00a	Error: Not allowed by CORS
 
-2025-10-07	09:48:05	c247f949-d039-4483-b317-e2acbadccd7b	Error: Not allowed by CORS
+2025-10-08	04:59:03	b807bbad-16da-47ee-bc34-7ace59d4fa25	Error: Not allowed by CORS
 
-2025-10-07	09:48:27	2804a48a-5f1d-437f-91e0-620f04809f78	Error: Not allowed by CORS
+2025-10-08	04:59:03	54ab5fec-0630-481b-9c42-4d57df1a9e1d	Error: Not allowed by CORS
 
-2025-10-07	09:48:28	d4ab582d-5aa2-46c0-8121-4e9ed0c662c0	Error: Not allowed by CORS
+2025-10-08	04:59:03	f296fb7b-0e14-44e2-9712-87a1b0c5a96e	Error: Not allowed by CORS
 
-2025-10-07	09:48:29	428ee994-7d8c-421f-8c66-fcf92d6e63ee	Error: Not allowed by CORS
+2025-10-08	04:59:03	4bccb83c-da27-4eb6-a286-c02cfd5ac541	Error: Not allowed by CORS
 
-2025-10-07	09:49:41	c962b0ba-b5d4-474c-a847-a62058306957	Error: Not allowed by CORS
+2025-10-08	04:59:04	81227a11-0ad7-4f3c-8ed1-61c3ddb230c6	Error: Not allowed by CORS
 
-2025-10-07	09:49:42	fe3eced3-cdbc-495c-bf12-c5f436dd8e55	Error: Not allowed by CORS
+2025-10-08	04:59:04	02657f76-1608-4093-8d01-d49b5376f70f	Error: Not allowed by CORS
 
-2025-10-07	09:49:43	b9362779-e279-4f24-95a6-0f2ad6503441	Error: Not allowed by CORS
+2025-10-08	04:59:05	3ba7a682-d8b9-4ab9-90e4-89f0a89472ce	Error: Not allowed by CORS
 
-2025-10-07	09:49:46	6d0830ac-0e00-47f1-a17a-731e54dbb8da	Error: Not allowed by CORS
+2025-10-08	04:59:05	8f9ca62a-c166-49b9-87b8-6ab5dd7592aa	Error: Not allowed by CORS
 
-2025-10-07	10:00:49	4a86f65d-0a33-4fcd-9f0b-9046b7a72ee2	Error: Not allowed by CORS
+2025-10-08	04:59:05	8c87a548-1851-41c0-837a-32db768e5fe4	Error: Not allowed by CORS
 
-2025-10-07	10:13:04	62831d86-3791-48f2-b5eb-246a8c118d00	Error: Not allowed by CORS
+2025-10-08	04:59:05	026040b5-4826-451a-a529-51192f644d6f	Error: Not allowed by CORS
 
-2025-10-07	10:13:05	dcf875a5-5ddb-450b-b327-7f1b452a5fc1	Error: Not allowed by CORS
+2025-10-08	04:59:22	30f89a51-7767-4ecc-86a1-8883ea72c65a	Error: Not allowed by CORS
 
-2025-10-07	10:13:06	366d629f-4b10-4c76-8f17-e87012462fed	Error: Not allowed by CORS
+2025-10-08	04:59:23	8d6a23b6-472d-4d2c-8c11-3164ea4d1c4d	Error: Not allowed by CORS
 
-2025-10-07	10:13:06	3e24a013-8909-49ca-bb6b-bba26589daf7	Error: Not allowed by CORS
+2025-10-08	04:59:23	fbdf9273-0ebd-47ac-b9da-215a9dfa806a	Error: Not allowed by CORS
 
-2025-10-07	10:13:06	5937283c-c5fc-4760-80aa-8d8dedefe558	Error: Not allowed by CORS
+2025-10-08	04:59:23	2edddaf4-3a7e-4727-8aee-dc913ae0dc38	Error: Not allowed by CORS
 
-2025-10-07	10:13:06	4fea9155-b1aa-4bf8-9375-e94d3e63f31b	Error: Not allowed by CORS
+2025-10-08	04:59:24	030527fd-5f4b-49d2-9788-7ee90c3b9249	Error: Not allowed by CORS
 
-2025-10-07	10:13:07	0291f614-1250-4b30-be39-e5049fc1fbef	Error: Not allowed by CORS
+2025-10-08	04:59:24	6957ad1a-ee9f-43fd-8f99-be6bc4964474	Error: Not allowed by CORS
 
-2025-10-07	10:13:08	ead79b2b-f198-4fc3-b384-1e065320317f	Error: Not allowed by CORS
+2025-10-08	04:59:24	8e781ad7-be81-452c-a8f3-ffa8dcfa5b99	Error: Not allowed by CORS
 
-2025-10-07	10:13:08	f8697e7e-7f6a-466d-99cf-740b32e07043	Error: Not allowed by CORS
+2025-10-08	04:59:24	b85e5c36-8c73-4ab7-8787-981d41a7b657	Error: Not allowed by CORS
 
-2025-10-07	10:13:09	781a56fb-6bc4-49b3-b0f4-fec856ee827b	Error: Not allowed by CORS
+2025-10-08	04:59:25	26162aa6-f4f4-4967-9564-35aa85af366b	Error: Not allowed by CORS
 
-2025-10-07	10:20:33	3c635de5-2b63-480d-aa9c-b6944ceadf39	Error: Cannot set headers after they are sent to the client
+2025-10-08	04:59:26	bc0c128c-197e-48a9-bf8a-841a4572d60b	Error: Not allowed by CORS
 
-2025-10-07	10:20:34	80492314-c03a-4c74-baac-1eaa284aae48	Error: Cannot set headers after they are sent to the client
+2025-10-08	05:01:13	940fa7f8-8a41-4263-acca-df0c70df85ef	Error: Not allowed by CORS
 
-2025-10-07	10:21:02	a6d6dcac-5fc8-47c2-8480-aca8141297f8	Error: Cannot set headers after they are sent to the client
+2025-10-08	05:01:14	746ddd23-a9f0-4395-bf9c-793aba4fa53f	Error: Not allowed by CORS
 
-2025-10-07	10:21:03	ef9d8a77-f5dd-46e0-bf4a-b376ee332cf7	Error: Cannot set headers after they are sent to the client
+2025-10-08	05:01:14	0fd25bc0-66a8-42a1-9cac-a6318a6f8e31	Error: Not allowed by CORS
 
-2025-10-07	10:25:11	4a96f1bf-0294-4f18-8cd6-1b7403af5a4e	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:14	a20421e3-0486-4b4d-9b69-814576a69ddd	Error: Not allowed by CORS
 
-2025-10-07	10:25:12	f6035cbf-c64d-4b6c-8879-7e6c43d9487b	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:14	187093eb-4aea-466f-83b7-eaa5142126d4	Error: Not allowed by CORS
 
-2025-10-07	02:12:14	d2f84506-ced4-4d43-91c1-ebb687034832	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:15	649c1607-239f-4d29-b788-04ace2203c8b	Error: Not allowed by CORS
 
-2025-10-07	02:12:15	ed84360f-aff4-44e0-b60e-cf2d46fa1123	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:25	99eb83c0-4149-4bcd-89a5-3f3820f4c86d	Error: Not allowed by CORS
 
-2025-10-07	02:12:16	808a0ac7-fa04-401c-8404-41ea9544717b	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:25	08eaf20d-78c5-4990-b10d-d77ca0e4f60a	Error: Not allowed by CORS
 
-2025-10-07	02:12:16	a5c65479-c285-4870-82c6-4edfe0cb52be	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:25	08c10ad2-d8ee-4445-847f-9ac624bbca4e	Error: Not allowed by CORS
 
-2025-10-07	02:12:16	fda8c2f8-a72d-4467-86a2-740e06b4d377	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:26	afb45bd7-97e0-4de7-968e-dfc8c8bec360	Error: Not allowed by CORS
 
-2025-10-07	02:12:17	f7b35ada-4b2a-4274-8fe3-abf3e26e8f8f	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:26	35a8f1bd-410e-4b38-8f6c-3868308ed49b	Error: Not allowed by CORS
 
-2025-10-07	02:12:17	500b5030-201f-42b2-b6df-3bc78d92486b	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:26	017753d1-68e0-4903-a956-88c4a18e305d	Error: Not allowed by CORS
 
-2025-10-07	02:12:17	18e37ebd-0c34-4066-998a-95bbbfa0c477	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:27	77c02837-2b8b-4f94-947b-58b79f1cc0f1	Error: Not allowed by CORS
 
-2025-10-07	02:12:18	d23ada86-da8e-4509-bbbc-9038b995cd97	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:27	2d800638-80cf-4827-99c9-1eb2e3480573	Error: Not allowed by CORS
 
-2025-10-07	02:12:21	d92ee042-1a67-4367-a9c1-52ef1452d6b8	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:27	413a5637-9d84-4a34-8a0c-65e6930c326c	Error: Not allowed by CORS
 
-2025-10-07	02:12:21	e7a93c6f-fc43-41d0-88cf-5bc54f32099b	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:27	6c36b239-4e5e-4bdb-9b45-4797b6ccbbac	Error: Not allowed by CORS
 
-2025-10-07	02:12:39	fea1934f-e8a5-463e-844d-dd4177e24fb2	TypeError: Expected a string but received a undefined
+2025-10-08	05:01:27	0c4d1f91-f68f-453d-9275-39d062418fe1	Error: Not allowed by CORS
 
-2025-10-07	02:12:39	74f961ea-9470-41fd-a34f-3898cb6e893d	TypeError: Expected a string but received a undefined
+2025-10-08	05:02:16	dbb567a7-7c53-49b0-9625-cce1635a819c	Error: Not allowed by CORS
 
-2025-10-07	02:13:12	4c330539-bce4-49b5-be84-2a4e286d3ab0	TypeError: Expected a string but received a undefined
+2025-10-08	05:02:17	f34c9632-90a5-475c-90b0-7301f58eeb80	Error: Not allowed by CORS
 
-2025-10-07	02:13:12	dd3d255f-c0b1-48e3-b1aa-83055d050d69	TypeError: Expected a string but received a undefined
+2025-10-08	05:02:17	39530660-c02f-456c-850e-66a10441c7db	Error: Not allowed by CORS
 
-2025-10-07	02:13:13	a0ffd9e9-b280-477b-9f9f-14b60544f2aa	TypeError: Expected a string but received a undefined
+2025-10-08	05:02:17	0b344a86-bdda-4bb6-b9aa-e9c828e0238d	Error: Not allowed by CORS
 
-2025-10-07	02:13:13	3127b25d-fd57-4edc-9cd3-f5993fc78b93	TypeError: Expected a string but received a undefined
+2025-10-08	05:02:18	352b3ad6-123a-4535-bb26-5d122b11132c	Error: Not allowed by CORS
 
-2025-10-07	02:13:13	9433713b-7ede-4e36-b450-7bb51f26bb7e	TypeError: Expected a string but received a undefined
+2025-10-08	05:02:18	e6322492-1d55-4e04-a518-a98bc3afab41	Error: Not allowed by CORS
 
-2025-10-07	02:13:13	0dfbfdca-c40d-4409-8a3a-577c79bf92cc	TypeError: Expected a string but received a undefined
+2025-10-08	05:10:40	8eb6ea3f-7c0a-4fa7-9c3c-6c08e14797dd	Error: Not allowed by CORS
 
-2025-10-07	02:13:14	50f2c50a-3efc-4d12-8ec1-1716e355a689	TypeError: Expected a string but received a undefined
+2025-10-08	05:10:46	4139895c-7c4e-4982-b15c-b4d351f00e46	Error: Not allowed by CORS
 
-2025-10-07	02:13:14	7b65a373-f5b2-4345-bd15-4b14606d66ac	TypeError: Expected a string but received a undefined
+2025-10-08	05:11:07	f40b401e-44e3-47c5-9da1-fcf94a9d78fb	Error: Not allowed by CORS
 
-2025-10-07	02:13:14	1cdc11ad-6d64-4790-82bf-cb7e4a4e1d88	TypeError: Expected a string but received a undefined
+2025-10-08	05:11:07	e7ec3a8e-d683-40a6-9aca-49ec228cf2f2	Error: Not allowed by CORS
 
-2025-10-07	02:13:14	2431faed-3531-4e58-84e5-8a1c1fd5e1c4	TypeError: Expected a string but received a undefined
+2025-10-08	05:11:07	9c6ff23f-c009-4f9c-ad5b-98966fbc02ee	Error: Not allowed by CORS
 
-2025-10-07	02:13:15	6a2efe60-e5c1-4c46-8dab-8ae7be09b33a	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:13:15	ff404967-3cdb-4dbf-b456-5e8b376554b2	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:14:03	84af2edc-4b32-456d-a18d-f05ed32aa714	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:14:04	05c625a4-dbaf-42cd-8e5c-21d7539ab371	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:14:15	5de042d2-87b5-477a-a20a-2e9eb6f79b15	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:14:16	faa6495b-ac4f-48fd-bba7-718fa26227af	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:21:40	23c09441-1feb-484b-a9aa-9fa592befe55	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:21:41	644ddda6-d67c-4ef1-9096-2bf2a49ec723	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:21:41	c43b7777-d656-4ee1-baa2-70bd0f54d1e6	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:21:41	c49b6296-b35c-47bb-a528-4702774c1d80	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:21:41	d0c0b1a7-2cfb-4fa6-9489-e877b8e240f4	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:23:50	e4594a34-df5c-487a-ae8f-aec697f50a38	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:23:51	f8731b6a-b2ae-4ed9-9756-ffb64dbfdd13	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:23:52	aa1565ac-493f-4035-876e-069ebde7c40f	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:24:07	509357cd-63a1-41bf-baf1-87f6e33c801f	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:25:34	dbf9b51b-0a1d-4a00-bdec-463b859c0207	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:25:34	c9cd55d4-4e56-4414-aa8f-d59573870b03	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:25:35	c67975bc-38d9-4220-b3e5-ae4a8ee3e11e	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:30:58	f6bb9f02-42cc-4761-b160-534ef8e0a02f	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:30:59	f9834d03-3463-4134-bf32-a6e9de31fcc3	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:30:59	d6e6bb86-cf9a-4ba4-9b54-19629f5633ea	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:30:59	6bfdabbf-2517-4899-a072-561d44c34713	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:30:59	4c144fe4-594f-4bd7-b7eb-5dead59d7fad	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:00	149d716f-684d-4f3b-9a58-62b56e8d3d6d	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:00	e45ee129-b47b-4b0e-87d0-37a3ffaa4e06	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:00	837c2dca-3d9a-4313-b490-6e418f958ecb	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:00	7d6e6c15-9acb-4bef-bdd1-3085def4ea2d	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:00	5f0cce6e-0001-44b3-b3ae-2fef2722b779	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:28	383383c6-2c41-488a-bc94-05910bc383f1	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:34	c950a6ab-688c-4360-9069-f535b2d0d685	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:34	b0688e6c-a1eb-4708-b1c0-5d750b1519ab	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:35	262ca36c-b563-4338-b585-5f416ac1fc81	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:35	a0fdbcf3-ef85-486c-b2e6-361e7810ec23	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:35	665cbc01-3563-468e-9c3b-a395da5a7dc5	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:36	6d24685c-6413-4a1c-a19b-f6c580e164fc	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:36	592fadd8-f18c-495e-bb3e-05b7e9c906bb	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:41	f4c43583-faa4-41a3-90b0-415d8e96fd72	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:42	6c50cc22-6cd7-4372-8ba4-318098b06e6e	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:48	c067d7ca-86ae-4f3d-b5c7-5a5210dc4062	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:48	f2379cdf-5184-4244-b1a8-e15fdfa69c36	TypeError: Expected a string but received a undefined
-
-2025-10-07	02:31:48	abaa91d1-41a5-43f5-8c13-ce5c653262de	TypeError: Expected a string but received a undefined
+2025-10-08	05:11:07	155b8cc7-afdb-4df7-9c6f-528c37114f9a	Error: Not allowed by CORS
 
