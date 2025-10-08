@@ -14,7 +14,7 @@ const corsOptions = require("./configs/corsOptions");
 const PORT = process.env.PORT || 3500;
 connectDB(); // connect to database
 
-// app.use(cors(corsOptions));
+ app.use(cors(corsOptions));
 
 // middlewares dependencies
 app.use(express.static(path.join(__dirname, "public")));
@@ -22,8 +22,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 // routes
+app.use("/user", require("./routes/user"))
 app.use(require("./routes/root"));
-app.use("/register", require("./routes/register"));
+app.use("/register", require("./routes/register"))
 app.use("/auth", require("./routes/auth"));
 app.use(verifyJWT);
 app.use("/refresh", require("./routes/refreshUserToken"));
