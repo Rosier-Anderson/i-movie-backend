@@ -1,9 +1,0 @@
-## Auth 
-POST https://i-movie-backend.onrender.com/auth
-Content-Type: application/json
-
-{
-  "user": "anderson",
-  "pwd": "A3derson$"
-}
-

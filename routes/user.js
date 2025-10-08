@@ -1,16 +1,13 @@
 const { logger } = require("../middleware/logEvents");
 const UserModel = require("../model/User");
 
-const getUser = async  (req, res) => {
-    try{
+const getUser = async (req, res) => {
+  try {
+    const user = await UserModel.find().exec();
 
-    }catch(e){
-        logger(req, res)
-    }
-const user = await UserModel.find().exec()
-
-return res.status(200).json({user: 
-    user
-})
-}
- module.exports = getUser
+    return res.status(200).json({ user: user });
+  } catch (e) {
+    logger(req, res);
+  }
+};
+module.exports = getUser;
